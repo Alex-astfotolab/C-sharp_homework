@@ -7,7 +7,7 @@ Console.WriteLine("Введи число: ");
 int usernum = int.Parse(Console.ReadLine()!);
 Console.Clear();
 Console.WriteLine("последовательность четных чисел: ");
-int num = 0;
+int num = 1;
 
 while(num <= usernum)
 {
