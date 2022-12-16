@@ -1,4 +1,5 @@
-﻿Console.Clear();
+﻿//ДЗ Задача 4:Поиск всех четных чисел в диапазоне от 1 до N.
+Console.Clear();
 Console.WriteLine("Поиск всех четных чисел в диапазоне от 1 до N ");
 Thread.Sleep(1500);
 Console.Clear();
