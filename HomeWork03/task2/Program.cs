@@ -1,1 +1,25 @@
-﻿
+﻿//ДЗ задача 2. Напишите программу, которая принимает на вход координаты двух точек и находит расстояние между ними в 3D пространстве
+Console.Clear();
+Console.Write("поиск расстояния меду двумя точками в 3D пространстве");
+Thread.Sleep(1500);
+Console.Clear();
+Console.Write("Введите координаты  точки A по X: ");
+int xx = int.Parse(Console.ReadLine()!);
+Console.Clear();
+Console.Write("Введите координаты точки A по Y: ");
+int xy = int.Parse(Console.ReadLine()!);
+Console.Clear();
+Console.Write("Введите координаты точки A по Z: ");
+int xz = int.Parse(Console.ReadLine()!);
+Console.Clear();
+Console.Write("Введите координаты точки B по X: ");
+int yx = int.Parse(Console.ReadLine()!);
+Console.Clear();
+Console.Write("Введите координаты точки B по Y: ");
+int yy = int.Parse(Console.ReadLine()!);
+Console.Clear();
+Console.Write("Введите координаты точки B по Z: ");
+int yz = int.Parse(Console.ReadLine()!);
+Console.Clear();
+double result = Math.Sqrt(Math.Pow(yx - xx, 3) + Math.Pow(yy - xy, 3) + Math.Pow(yz - xz, 3));
+Console.Write($"расстояние между точками A(x{xx},y{xy},z{xz}) и B(x{yx},y{yy},z{yz}): {result:f2} условных попугаев");
