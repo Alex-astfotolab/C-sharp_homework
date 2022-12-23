@@ -8,7 +8,11 @@ int x = int.Parse(Console.ReadLine()!);
 Console.Clear();
 string num = x.ToString();
 
-if (num[0] == num[4] && num[1] == num[3])
+if (num.Length < 5 )
+{
+    Console.Write($"не пятизначное число");
+}
+else if(num[0] == num[4] && num[1] == num[3])
 {
     Console.Write($"число {x}: палиндром");
 }
