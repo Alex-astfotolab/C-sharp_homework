@@ -8,7 +8,7 @@ if((x > 99) && (x < 1000))
 {
 string num = x.ToString();
 
-Console.WriteLine($"второй знак числа {x}, число {num[1]}");
+Console.WriteLine($"второй знак числа {x}, {num[1]}");
 }
 else{
     Console.WriteLine($"число {x} не трехзначное!!!");
