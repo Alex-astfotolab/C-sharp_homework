@@ -7,14 +7,10 @@
     }
     return res;
 }
-int[] GetSumEl(int[] array)
-{
-    int x = array[0] * array[3];
-    int y = array[1] * array[2];
-    int[] a = new int[] {x, y};
-return a;
-}
 
 int[] array = GetArray(4, 1, 10);
+Console.Clear();
 Console.WriteLine($"[{String.Join(",", array)}]");
-Console.WriteLine($"{GetSumEl(array)}");
+int x = array[0] * array[3];
+int y = array[1] * array[2];
+Console.WriteLine($"{x},{y}");
