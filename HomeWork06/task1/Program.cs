@@ -1,6 +1,5 @@
 ﻿Console.Clear();
 Console.Write("Введите любые числа, через пробел: ");
-Console.Clear();
 int[] arr = Array.ConvertAll(Console.ReadLine().Split(), int.Parse);
 int count = 0;
 
